@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "firebase deploy --only hosting:vkstudio-896ec"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +18,7 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "firebase": "^9.23.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
