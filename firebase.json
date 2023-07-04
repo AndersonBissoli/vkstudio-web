@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "vkstudio-896ec",
     "public": "public",
     "ignore": [
       "firebase.json",
